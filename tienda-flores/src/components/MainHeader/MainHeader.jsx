@@ -14,7 +14,6 @@ function MainHeader() {
               <NavDropdown.Item as={Link} to="/category/rosas">Rosas</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/category/tulipanes">Tulipanes</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/category/margaritas">Margaritas</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/category/orquideas">Orquídeas</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/cart">🛒 Carrito</Nav.Link>
           </Nav>

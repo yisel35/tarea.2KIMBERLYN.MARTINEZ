@@ -24,6 +24,7 @@ function ItemDetailContainer() {
   return (
     <Container className="py-4">
       <h1>{item.name}</h1>
+      <img src={item.Image} alt={item.name} style={{ maxWidth: '100%', height: 'auto' }} />
       <p>Precio: {item.price}€</p>
       <p>Categoría: {item.category}</p>
     </Container>
